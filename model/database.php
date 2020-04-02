@@ -13,7 +13,7 @@
     try {
         //local development server connection
         //if using a $password, add it as 3rd parameter
-        $db = new PDO($dsn, $username);
+        //$db = new PDO($dsn, $username);
 
         // Heroku connection
         $db = new PDO($dsn, $username, $password);
