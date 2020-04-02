@@ -6,7 +6,7 @@
 
     // Heroku connection
     
-    $dsn = 'mysql:host=AVeryLongURLprovidedforJawsDBhost;dbname=qzd6c7hamtz6y8uu';
+    $dsn = 'mysql://ew0os82nz7fbqzfr:ys3u33od3mili9qt@zy4wtsaw3sjejnud.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/qzd6c7hamtz6y8uu ;dbname=qzd6c7hamtz6y8uu';
     $username = 'ew0os82nz7fbqzfr';
     $password = 'ys3u33od3mili9qt';
     
