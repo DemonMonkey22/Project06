@@ -5,18 +5,18 @@
     //$password = 'pa55word';
 
     // Heroku connection
-    /*
-    $dsn = 'mysql:host=AVeryLongURLprovidedforJawsDBhost;dbname=YourJawsDBdbname';
-    $username = 'Your JawsDB username';
-    $password = 'Your JawsDB password';
-    */
+    
+    $dsn = 'mysql:host=AVeryLongURLprovidedforJawsDBhost;dbname=qzd6c7hamtz6y8uu';
+    $username = 'ew0os82nz7fbqzfr';
+    $password = 'ys3u33od3mili9qt';
+    
     try {
         //local development server connection
         //if using a $password, add it as 3rd parameter
         $db = new PDO($dsn, $username);
 
         // Heroku connection
-        //$db = new PDO($dsn, $username, $password);
+        $db = new PDO($dsn, $username, $password);
     } catch (PDOException $e) {
         $error_message = $e->getMessage();
         include('errors/database_error.php');
